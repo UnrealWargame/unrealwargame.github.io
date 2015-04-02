@@ -64,8 +64,13 @@ select { background-color: white; font-family: inherit; border: 0; -webkit-box-s
 /* ==================
    3 = Header
    ================== */
-header {background:url(images/header_bg.jpg) bottom center no-repeat; min-height:880px; position: relative}
-header .message {position: absolute; top:125px; left:1%; right:1%; margin:0 auto; text-align: center}
+header {
+   /*background:url(images/header_bg.png) bottom center no-repeat;*/
+   background-color: #E13950;
+   min-height:100%; 
+   position: relative;
+}
+header .message {position: absolute; top:35px; left:1%; right:1%; margin:0 auto; text-align: center}
 .message-intro {display:table-row;line-height:1.5em;font-size:2em;white-space:nowrap;margin-bottom:2em}
 .message-intro p{font-size:inherit;overflow:hidden; display:table-cell;vertical-align:middle;padding-bottom:30px;color:#fff;font-size:22px;font-weight:400; letter-spacing: 2px}
 .message-intro span.message-line{display:table-cell;width:50%}
@@ -165,7 +170,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul { left: 175px; top:
 .features {padding:75px 0; background:#F5E8DF; overflow:hidden;}
 .features.servers {padding:40px 0 0; background:#fff;}
 .features.premium-servers {padding:50px 0; background:#535761;}
-.features i {margin-bottom:10px; font-size:55px; color:#C5645B;}
+.features i {margin-bottom:10px; font-size:55px; color:#E13950;}
 .features h2 {font-weight:900;text-align: center; margin-bottom: 12px}
 .features.premium-servers h2 {color:#d7d7d7;}
 .features.premium-servers p {color:#ccc;}
@@ -181,9 +186,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul { left: 175px; top:
 .calltoaction .longshadow { text-shadow: 1px 1px rgb(31, 41, 52), 2px 2px rgb(31, 41, 52), 3px 3px rgb(31, 41, 52), 4px 4px rgb(31, 41, 52), 5px 5px rgb(31, 41, 52), 6px 6px rgb(31, 41, 52), 7px 7px rgb(31, 41, 52), 8px 8px rgb(31, 41, 52), 9px 9px rgb(31, 41, 52), 10px 10px rgb(31, 41, 52), 11px 11px rgb(31, 41, 52), 12px 12px rgb(31, 41, 52), 13px 13px rgb(31, 41, 52), 14px 14px rgb(31, 41, 52), 15px 15px rgb(31, 41, 52), 16px 16px rgb(31, 41, 52), 17px 17px rgb(31, 41, 52), 18px 18px rgb(31, 41, 52), 19px 19px rgb(31, 41, 52), 20px 20px rgb(31, 41, 52), 21px 21px rgb(31, 41, 52), 22px 22px rgb(31, 41, 52), 23px 23px rgb(31, 41, 53), 24px 24px rgb(31, 41, 53), 25px 25px rgb(31, 42, 53), 26px 26px rgb(31, 42, 53), 27px 27px rgb(31, 42, 53), 28px 28px rgb(32, 42, 54), 29px 29px rgb(32, 42, 54), 30px 30px rgb(32, 42, 54), 31px 31px rgb(32, 42, 54), 32px 32px rgb(32, 43, 55), 33px 33px rgb(32, 43, 55), 34px 34px rgb(32, 43, 55), 35px 35px rgb(32, 43, 55), 36px 36px rgb(32, 43, 55), 37px 37px rgb(33, 43, 56), 38px 38px rgb(33, 43, 56), 39px 39px rgb(33, 44, 56), 40px 40px rgb(33, 44, 56), 41px 41px rgb(33, 44, 56), 42px 42px rgb(33, 44, 57), 43px 43px rgb(33, 44, 57), 44px 44px rgb(33, 44, 57), 45px 45px rgb(33, 44, 57), 46px 46px rgb(34, 45, 58);  height: 100%;  width: 100%;  font-size: 64px;  text-align: center;  color:#37485c;  font-weight:900;}
 .calltoactioninfo {margin-top:40px; padding:40px 0 0; text-align: center; }
 .calltoaction h2 {font-weight:900;text-align: center; margin:0; padding:0; color:#37485c; font-size:57px;  }
-.calltoaction h2 span {color:#C5645B;  }
-.calltoaction h3 {font-weight:300;text-align: center;  margin:15px 0 0; padding:0; color:#C5645B; font-size:22px; }
-.calltoactioninfo .button {background:#C5645B; color:#fff; margin-top:30px; font-weight:700; float:none;}
+.calltoaction h2 span {color:#E13950;  }
+.calltoaction h3 {font-weight:300;text-align: center;  margin:15px 0 0; padding:0; color:#E13950; font-size:22px; }
+.calltoactioninfo .button {background:#E13950; color:#fff; margin-top:30px; font-weight:700; float:none;}
 .calltoactioninfo .button:hover {background:#37485c; text-decoration: none}
 
 /* Pricing Tables - Boxes */
@@ -194,11 +199,11 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul { left: 175px; top:
 .pricingboxes .title:after { top: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(101, 69, 76, 0); border-top-color: #65454c; border-width: 8px; margin-left: -8px; }
 .pricing-table {  border: 0;  margin: 0 0 1.25em 0;padding:0;  }
 .pricing-table * {    list-style: none;    line-height: 1; }
-.pricing-table .price {  font-family: 'Lato', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; background: #b86662; text-align: center;  padding:12px 0 18px;    color: #EAEAEA;    font-weight: 900;    font-size: 15px; }
-.pricing-table .price span {    color: #EAEAEA;    font-weight: 900;    font-size: 53px; display: block; padding:10px 0; text-shadow: 1px 1px rgb(166, 92, 88), 2px 2px rgb(166, 92, 88), 3px 3px rgb(166, 92, 88), 4px 4px rgb(166, 92, 88), 5px 5px rgb(166, 92, 88), 6px 6px rgb(166, 92, 88), 7px 7px rgb(166, 92, 88), 8px 8px rgb(166, 92, 88), 9px 9px rgb(166, 92, 88), 10px 10px rgb(166, 92, 88), 11px 11px rgb(166, 92, 88), 12px 12px rgb(166, 92, 88), 13px 13px rgb(167, 92, 88), 14px 14px rgb(168, 93, 89), 15px 15px rgb(169, 93, 89), 16px 16px rgb(170, 94, 90), 17px 17px rgb(171, 94, 90), 18px 18px rgb(172, 95, 91), 19px 19px rgb(173, 95, 91), 20px 20px rgb(174, 96, 92), 21px 21px rgb(175, 97, 93), 22px 22px rgb(176, 97, 93), 23px 23px rgb(177, 98, 94), 24px 24px rgb(178, 98, 94), 25px 25px rgb(179, 99, 95), 26px 26px rgb(180, 99, 95), 27px 27px rgb(181, 100, 96), 28px 28px rgb(182, 100, 96), 29px 29px rgb(183, 101, 97), 30px 30px rgb(184, 102, 98);  background-color: rgb(184, 102, 98); }
-.pricing-table .description { background: #b86662; text-align: center; padding:32px 0;    color: #fff;    font-size: 17px;   font-weight: normal;    line-height: 1.4; border-bottom: solid 1px #a85d59;  -webkit-border-top-left-radius: 8px;-webkit-border-top-right-radius: 8px;-moz-border-radius-topleft: 8px;-moz-border-radius-topright: 8px;border-top-left-radius: 8px;border-top-right-radius: 8px;}
-.pricing-table .bullet-item {    background-color: #b86662;    padding: 0.9375em;    text-align: center;    color: #fff;    font-size: 14px;    font-weight: normal;    border-bottom: solid 1px #a85d59; }
-.pricing-table .cta-button {  background: #b86662;    text-align: center;    padding: 8px 0; -webkit-border-bottom-right-radius: 8px;-webkit-border-bottom-left-radius: 8px;-moz-border-radius-bottomright: 8px;-moz-border-radius-bottomleft: 8px;border-bottom-right-radius: 8px;border-bottom-left-radius: 8px; }
+.pricing-table .price {  font-family: 'Lato', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; background: #E13950; text-align: center;  padding:12px 0 18px;    color: #EAEAEA;    font-weight: 900;    font-size: 15px; }
+.pricing-table .price span {    color: #EAEAEA;    font-weight: 900;    font-size: 53px; display: block; padding:10px 0;  background-color: #E13950; }
+.pricing-table .description { background: #E13950; text-align: center; padding:32px 0;    color: #fff;    font-size: 17px;   font-weight: normal;    line-height: 1.4; border-bottom: solid 1px #a85d59;  -webkit-border-top-left-radius: 8px;-webkit-border-top-right-radius: 8px;-moz-border-radius-topleft: 8px;-moz-border-radius-topright: 8px;border-top-left-radius: 8px;border-top-right-radius: 8px;}
+.pricing-table .bullet-item {    background-color: #E13950;    padding: 0.9375em;    text-align: center;    color: #fff;    font-size: 14px;    font-weight: normal;    border-bottom: solid 1px #a85d59; }
+.pricing-table .cta-button {  background: #E13950;    text-align: center;    padding: 8px 0; -webkit-border-bottom-right-radius: 8px;-webkit-border-bottom-left-radius: 8px;-moz-border-radius-bottomright: 8px;-moz-border-radius-bottomleft: 8px;border-bottom-right-radius: 8px;border-bottom-left-radius: 8px; }
 .pricing-table .cta-button p {  padding: 14px 0 8px; }
 .pricing-table .cta-button span a {color:#fff; font-size:16px; font-weight:800; background: #65454c; padding:9px 27px; border-radius: 6px}
 .pricing-table .cta-button span a:hover {background: #37485c; text-decoration: none;}
