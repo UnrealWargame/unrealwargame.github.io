@@ -21,7 +21,7 @@ body.login-page {background:url(images/login_page_bg.jpg);}
 .row {max-width:1170px;}
 iframe {margin: 0 0 40px; border:0; width:100%;}
 code { text-shadow: 0 1px white; line-height:1.3;	font-family: Consolas, Monaco, 'Andale Mono', monospace; font-weight:normal; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -o-pre-wrap; background: #F5F2F0;display: block; padding: 12px; margin: 8px 0; color:#303038; border: 0; border-radius:6px;}
-h1, h2, h3, h4, h5, h6 { font-family: 'Lato', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; font-weight: 700; color: #5A5A5A; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 12px; margin-top: 12px;  }
+h1, h2, h3, h4, h5, h6 { font-family: 'Lato', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; font-weight: 700; color: #37485C; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 12px; margin-top: 12px;  }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; }
 h1 { font-size: 44px; }
 h2 { font-size: 34px; }
@@ -167,7 +167,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul { left: 175px; top:
    ================== */
 
 /* Features */
-.features {padding:75px 0; background:#F5E8DF; overflow:hidden;}
+.features {padding:75px 0; background:#222D3A; overflow:hidden; color:#EAEAEA;}
 .features.servers {padding:40px 0 0; background:#fff;}
 .features.premium-servers {padding:50px 0; background:#535761;}
 .features i {margin-bottom:10px; font-size:55px; color:#E13950;}
@@ -195,8 +195,8 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul { left: 175px; top:
 .pricingboxes {padding:50px 0; overflow: hidden }
 .pricingboxes h2 {font-weight:900;text-align: center; margin-bottom: 12px}
 .pricingboxes p {text-align: center;}
-.pricingboxes .title { font-family: 'Lato', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;  -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; background: #65454c;  padding: 12px 0;    text-align: center; letter-spacing: .07em;   color: #fff;    font-weight: 800;    font-size: 17px; margin-bottom:15px; position: relative; }
-.pricingboxes .title:after { top: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(101, 69, 76, 0); border-top-color: #65454c; border-width: 8px; margin-left: -8px; }
+.pricingboxes .title { font-family: 'Lato', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;  -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; background: #37485C;  padding: 12px 0;    text-align: center; letter-spacing: .07em;   color: #fff;    font-weight: 800;    font-size: 17px; margin-bottom:15px; position: relative; }
+.pricingboxes .title:after { top: 100%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(101, 69, 76, 0); border-top-color: #37485C; border-width: 8px; margin-left: -8px; }
 .pricing-table {  border: 0;  margin: 0 0 1.25em 0;padding:0;  }
 .pricing-table * {    list-style: none;    line-height: 1; }
 .pricing-table .price {  font-family: 'Lato', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; background: #E13950; text-align: center;  padding:12px 0 18px;    color: #EAEAEA;    font-weight: 900;    font-size: 15px; }
