@@ -641,7 +641,6 @@ p.copyright {font-size:12px; text-align:center; padding:35px 0 0; margin:0; colo
 @media only screen and (max-width: 640px) {
 .js nav.desktop-menu { display:none; }
 .js .slicknav_menu {display: block;}
-header .message {top:100px;}
 header.video .message, header.slider .message {display:none;}
 header.video .top, header.slider .top {position: relative}
 .top.sticky {position:relative; z-index:0}
@@ -728,6 +727,10 @@ ul.domainfeatures li .circle {width: 60px; height: 60px;padding-top:13px; }
 }
 
 @media only screen and (min-width: 1026px) and (max-width: 1441px) {
+header {
+   height: 800px;
+   max-height: 800px;
+}
 .slidercaption { top: 23%;}
 .slidercaption h3 { font-size:25px;margin-bottom:22px;}
 .slidercaption p {max-width:80%; padding:15px;}
